@@ -40,7 +40,7 @@ An example call look like this:
 	 * @param array $values
 	 */
 	public function resultsActionSlot($values) {
-		$values['foo'] = 'bar'
+		$values['foo'] = 'bar';
 
 		return [$values];
 	}
